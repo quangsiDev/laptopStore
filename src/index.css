@@ -1,0 +1,20 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  /* height: 100%; */
+}
+html,
+body {
+  /* height: 100%; */
+}
+#root {
+  /* height: 100%; */
+}
+.ant-progress-inner {
+  width: 100% !important;
+  height: 100% !important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

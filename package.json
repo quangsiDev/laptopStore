@@ -1,0 +1,55 @@
+{
+  "name": "bigproject",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.2.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.6",
+    "autoprefixer": "^9.8.6",
+    "lottie-react": "^2.1.0",
+    "postcss": "^7.0.35",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-scroll-to-component": "^1.0.2",
+    "react-slick": "^0.28.1",
+    "surge": "^0.23.0",
+    "tailwind-config-viewer": "^1.6.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.4",
+    "tslib": "^2.3.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "tailwind-config-viewer": "tailwind-config-viewer -o",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwind-scrollbar": "^1.3.1"
+  }
+}
